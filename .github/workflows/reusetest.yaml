@@ -3,6 +3,10 @@ name: Test stuff
 on:
   workflow_dispatch: {}
 
+permissions:
+  contents: read
+  id-token: write
+
 jobs:
   trigger-core:
     uses: fe-ax/tf-aws/.github/workflows/terraform.yaml@main
