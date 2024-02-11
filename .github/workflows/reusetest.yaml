@@ -4,5 +4,5 @@ on:
   workflow_dispatch: {}
 
 jobs:
-  job1:
+  trigger-core:
     uses: fe-ax/tf-aws/.github/workflows/terraform.yaml@main
