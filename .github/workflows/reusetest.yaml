@@ -1,0 +1,8 @@
+name: Test stuff
+
+on:
+  workflow_dispatch: {}
+
+jobs:
+  trigger-core:
+    uses: fe-ax/tf-aws/.github/workflows/terraform.yaml@main
