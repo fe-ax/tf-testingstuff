@@ -10,3 +10,4 @@ permissions:
 jobs:
   trigger-core:
     uses: fe-ax/tf-aws/.github/workflows/terraform.yaml@main
+    secrets: inherit
